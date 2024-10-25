@@ -1,24 +1,48 @@
+<!DOCTYPE html>
 <html dir="ltr" lang="pt" class="" lazy-loaded="true">
-	<head>
-		<style>
-			/* Centraliza a logo horizontalmente */
-			.logo {
-				display: flex;
-				justify-content: center;
-				align-items: center;
-				height: 100vh;
-			}
-			.logo img {
-				width: 400px; /* Define a largura da logo */
-				height: auto; /* A altura será ajustada automaticamente */
-			}
-		</style>
-	</head>
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      /* Centraliza a logo horizontalmente */
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh; /* Reduz um pouco para dar espaço ao rodapé */
+      }
+      .logo img {
+        width: 400px; /* Define a largura da logo */
+        height: auto; /* A altura será ajustada automaticamente */
+      }
+      /* Estilos do rodapé */
+      footer {
+        background-color: #333; /* Cor de fundo do rodapé */
+        color: #fff; /* Cor do texto do rodapé */
+        padding: 20px;
+        text-align: center;
+        font-size: 14px;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+      footer p {
+        margin: 5px 0;
+      }
+    </style>
+  </head>
   <body style="background-color: rgb(52, 52, 52);">
-		<div class="all">
-			<div class="logo">
-				<img src="logo.svg" alt="Logo">
-			</div>
-		</div>
-	</body>
+    <div class="all">
+      <div class="logo">
+        <img src="logo.svg" alt="Logo">
+      </div>
+    </div>
+    <!-- Rodapé com as informações da empresa -->
+    <footer>
+      <p>Nome da Empresa: LUIZ RUFINO CERQUEIRA TEIXEIRA DESENVOLVIMENTO DE SOFTWARE LTDA</p>
+      <p>CNPJ: 39.887.434/0001-90</p>
+      <p>Endereço: Rua Embira, 341, Nova Dias Davila - Dias Davila, Bahia, CEP: 42850-000</p>
+      <p>Email: contato@ouve.ai</p>
+      <p>Telefone: (71) 99941-9282</p>
+    </footer>
+  </body>
 </html>
